@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "babel-node dogfood/tests/calc.spec.js"
+    "test": "babel-node dogfood/tests/calc.spec.js",
+    "test-async": "babel-node dogfood/tests/thread.calc.spec.js"
   },
   "keywords": [],
   "author": "",
