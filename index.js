@@ -30,13 +30,6 @@ async function assert(exp) {
     console.log(e);
     console.groupEnd();
   }
-  // if (await exp(this.result)) {
-  //   console.log(kleur.green(`(✓) ${this.desc}`));
-  // } else {
-  //   console.group(kleur.red(`(x) ${this.desc}`));
-  //   console.log("Actual: ", await this.result);
-  //   console.groupEnd();
-  // }
 }
 
 export function test(sut, desc) {
