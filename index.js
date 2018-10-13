@@ -40,3 +40,8 @@ export function test(sut, desc) {
     })
   }
 }
+
+export function scenario(description, callback) {
+  console.log(kleur.yellow(`🚀  ${description}`));
+  callback();
+}
